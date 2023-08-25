@@ -1,0 +1,19 @@
+{
+  "name": "todo-beth",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "@elysiajs/html": "^0.6.0",
+    "@elysiajs/swagger": "^0.6.1",
+    "elysia": "latest",
+    "rome": "^12.1.3",
+    "typed-html": "^3.0.1"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}
